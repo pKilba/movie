@@ -48,9 +48,9 @@ public class MovieValidator implements MovieValidatorApi {
     }
 
     public boolean isValidName(String name) {
-        Matcher matcher = COMPILED_PATTERN_NAME.matcher(name);
-        boolean isCorrect = matcher.matches();
-        if (!isCorrect || name.length() > MAX_FILM_NAME_LENGTH
+//        Matcher matcher = COMPILED_PATTERN_NAME.matcher(name);
+//        boolean isCorrect = matcher.matches();
+        if ( name.length() > MAX_FILM_NAME_LENGTH
                 || name.length() < MIN_FILM_NAME_LENGTH) {
             return false;
         }

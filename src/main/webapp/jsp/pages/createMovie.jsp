@@ -32,6 +32,12 @@
                    required>
         </div>
         <div class="mb-3">
+            <span class="form-label"><fmt:message key="create.film.link.linkMovie"/></span>
+            <input type="text" class="form-control" name="linkMovie" minlength="4" maxlength="248"
+                   required>
+        </div>
+
+        <div class="mb-3">
             <span class="form-label"><fmt:message key="create.film.name"/></span>
             <input type="text" class="form-control" name="name" minlength="4" maxlength="32"
                    required>
