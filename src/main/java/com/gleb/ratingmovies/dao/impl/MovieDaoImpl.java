@@ -40,6 +40,7 @@ public class MovieDaoImpl implements MovieDao {
                     "movie_release_date DESC LIMIT ?,?";
 
 
+
     private final ConnectionPool connectionPool = ConnectionPoolImpl.getInstance();
 
 
